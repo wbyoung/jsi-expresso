@@ -1,5 +1,5 @@
 {
-  "name": "jsi-express",
+  "name": "expresso",
   "version": "0.1.0",
   "description": "Express clone",
   "main": "server.js",
