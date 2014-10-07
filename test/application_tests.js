@@ -27,4 +27,13 @@ describe('Application', function() {
 
     expect(spy).to.not.have.been.called;
   });
+
+  it('can listen for requests', function(done) {
+    var app = new Application();
+    var server = app.listen(38292, function() {
+      server.close(function() {
+        done();
+      });
+    });
+  });
 });
